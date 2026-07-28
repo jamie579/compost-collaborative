@@ -16,6 +16,10 @@ What began as a call for contributions became *Nursing Inquiry* 31(1) (2024) —
 
 Jess guest-edited this themed issue of *Witness: The Canadian Journal of Critical Nursing Discourse* (7(2), December 2025) — on the politics the discipline pretends not to have. It carries her editorial and her article [Our Silence Cannot Protect Us](https://doi.org/10.25071/2291-5796.195), alongside Jane and Annie-Claude's [Imaginative Archives for a More Radical Nursing Future](https://doi.org/10.25071/2291-5796.187), which introduces the collective in its own words. [The issue →](https://witness.journals.yorku.ca/index.php/default/issue/archive)
 
+## Camp: nursing and the politics of seriousness
+
+Jamie guest-edited a collection on camp for *Nursing Philosophy* — what happens when nursing stops being polite and starts getting real. Unfolding across the journal through 2026: Jamie's [The Camp of Reason: Spinoza's *Ethics* as Affirmative Excess](https://doi.org/10.1111/nup.70081), with papers by [Cleofas and colleagues](https://doi.org/10.1111/nup.70085), [Berdida](https://doi.org/10.1111/nup.70091), [Runtung](https://doi.org/10.1111/nup.70092), and [Graziano's Camp, Nursing, and the Politics of Seriousness](https://doi.org/10.1111/nup.70099). The collection took the stage at IPONS 2026 as Jamie and Jess's invited conversation of the same spirit.
+
 ## Constantly Becoming With
 
 <img src="../images/cbw-still.jpg" alt="Still from Constantly Becoming With, video wonderings by Kieran Sheehan" style="width:100%;border:1.5px solid var(--violet)">

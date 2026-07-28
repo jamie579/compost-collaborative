@@ -11,7 +11,7 @@ website: "https://jamiebriansmith.com"
 teaser: "Nurse; senior research fellow, Edinburgh Napier; posthuman institutional ethnography and workforce research."
 ---
 
-Jamie B Smith is a white, cis, queer newly middle class man. He is a nurse, Senior Research Fellow at Edinburgh Napier University, and research associate at the Institute of Gender in Medicine, Charité – Universitätsmedizin Berlin, moving between research and clinical practice in the NHS. His Edinburgh PhD developed a posthuman institutional ethnography of nursing. His work explores how power, humans, and non-humans produce intimate relations and care in more-than-human worlds, combining critical posthuman theory and feminist new materialism with mixed methods research on nursing workforces, stress, and structural inequality. He serves on the editorial board of *Nursing Philosophy*.
+Jamie B Smith is a white, cis, queer newly middle class man. He is a nurse, Senior Research Fellow at Edinburgh Napier University, and research associate at the Institute of Gender in Medicine, Charité – Universitätsmedizin Berlin, moving between research and clinical practice in the NHS. His Edinburgh PhD developed a posthuman institutional ethnography of nursing. His work explores how power, humans, and non-humans produce intimate relations and care in more-than-human worlds, combining critical posthuman theory and feminist new materialism with mixed methods research on nursing workforces, stress, and structural inequality. He serves on the editorial board of *Nursing Philosophy*, where he guest-edited the journal's camp collection (2026) — see [Projects](../../projects/).
 
 ## Selected works
 
