@@ -1,0 +1,76 @@
+{{ define "main" }}
+<header class="g-dark">
+  <canvas class="celestial" id="stars" aria-hidden="true"></canvas>
+  <div class="octo-wrap">
+    <img class="octo" id="octo" src="{{ "images/octopus.png" | relURL }}"
+         alt="White line drawing of a celestial octopus surrounded by alchemical symbols and orbital rings, glowing softly"
+         width="920" height="800">
+  </div>
+  <div class="hero-text z">
+    <h1 class="caps"><span>The Compost</span><br><span>Collaborative</span></h1>
+    <p class="strap"><span>{{ site.Params.strapline }}</span></p>
+  </div>
+</header>
+
+<section class="patches-band g-dark">
+  <div class="band-inner z">
+    <p class="eyebrow caps">✶ Patches, not pillars</p>
+    <h2 class="caps">Growing in the ruins</h2>
+    <div class="patches">
+      <article class="patch p-imperative">
+        <h3 class="caps">The Imperative</h3>
+        <p>Why compost, why now: the imperative for critical posthuman research in nursing — against extraction, with care, in the ruins of the systems we work inside.</p>
+        <a class="caps" href="{{ "imperative/" | relURL }}">Read the imperative →</a>
+      </article>
+      <article class="patch p-solidarity">
+        <h3 class="caps">Solidarity</h3>
+        <p>Solidarity is a nursing intervention. Watch the collective say it to camera.</p>
+        <a class="caps" href="{{ "solidarity/" | relURL }}">Stand with us →</a>
+      </article>
+      <article class="patch p-projects">
+        <h3 class="caps">Projects</h3>
+        <p>What we are growing together — the book, the Drift Journal, video wonderings, and experiments in noticing.</p>
+        <a class="caps" href="{{ "projects/" | relURL }}">Dig in →</a>
+      </article>
+      <article class="patch p-activities">
+        <h3 class="caps">Activities</h3>
+        <p>Panels, provocations, conference mischief. Fruiting bodies appear irregularly.</p>
+        <a class="caps" href="{{ "activities/" | relURL }}">Join something →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="band-people g-light">
+  <div class="band-head z">
+    <p class="eyebrow caps">☽ The Collective</p>
+    <h2 class="caps">Come question everything you know about nursing research with us</h2>
+  </div>
+  <div class="people-grid z">
+    {{ range where site.RegularPages "Section" "people" }}
+    <a class="person-card" href="{{ .RelPermalink }}">
+      <img src="{{ .Params.photo | relURL }}" alt="{{ .Title }}" loading="lazy">
+      <span class="name caps">{{ .Title }}</span>
+      <span class="pronouns caps">({{ .Params.pronouns }})</span>
+    </a>
+    {{ end }}
+  </div>
+  <a class="people-more caps z" href="{{ "people/" | relURL }}">All of us →</a>
+</section>
+
+<section class="band-notes g-dark">
+  <div class="band-inner z">
+    <p class="eyebrow caps">⊕ Latest</p>
+    <h2 class="caps">News from the heap</h2>
+    <div class="news-grid">
+      {{ range site.Data.news.items }}
+      <article class="news-item">
+        <h3 class="caps">{{ .title }}</h3>
+        <p>{{ .text }}</p>
+        {{ with .link }}<a class="caps" href="{{ . }}">More →</a>{{ end }}
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

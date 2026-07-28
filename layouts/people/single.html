@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main class="band-prose g-light">
+  <article class="member z">
+    <div class="member-head">
+      <img class="member-photo" src="{{ .Params.photo | relURL }}" alt="{{ .Title }}">
+      <div>
+        <p class="eyebrow caps">☽ The Collective</p>
+        <h1 class="caps">{{ .Title }}</h1>
+        <p class="pronouns caps">({{ .Params.pronouns }})</p>
+        <p class="cred">{{ .Params.credentials }} · {{ .Params.based }}</p>
+        <p class="member-links">
+          {{ with .Params.orcid }}<a class="caps" href="{{ . }}">ORCID</a>{{ end }}
+          {{ with .Params.scholar }}<a class="caps" href="{{ . }}">Scholar</a>{{ end }}
+          {{ with .Params.website }}<a class="caps" href="{{ . }}">Website</a>{{ end }}
+        </p>
+      </div>
+    </div>
+    <div class="prose-body">
+      {{ .Content }}
+    </div>
+  </article>
+</main>
+{{ end }}

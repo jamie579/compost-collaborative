@@ -1,0 +1,45 @@
+# Staging baseURL — switch to https://compostcollaborative.online/ at DNS cutover
+baseURL = "https://jamie579.github.io/compost-collaborative/"
+languageCode = "en-gb"
+title = "The Compost Collaborative"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  strapline = "We are an interdisciplinary research group comprised of nurses, artists, critical theorists and anti-fascists who are committed to understanding how we can use creativity, understanding and affirmation."
+  description = "An international interdisciplinary research group of nurses, artists, critical theorists and anti-fascists — critical posthumanist nursing, creativity as critique."
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 10
+[[menu.main]]
+  name = "About us"
+  url = "/about/"
+  weight = 20
+[[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 30
+[[menu.main]]
+  name = "People"
+  url = "/people/"
+  weight = 40
+[[menu.main]]
+  name = "Positionality"
+  url = "/positionality/"
+  weight = 50
+[[menu.main]]
+  name = "Works"
+  url = "/works/"
+  weight = 60
+[[menu.main]]
+  name = "Activities"
+  url = "/activities/"
+  weight = 70
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 80

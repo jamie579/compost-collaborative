@@ -1,0 +1,20 @@
+{{ define "main" }}
+<main class="band-people g-light band-people-full">
+  <div class="band-head z">
+    <p class="eyebrow caps">☽ The Collective</p>
+    <h1 class="caps">{{ .Title }}</h1>
+    <p class="subtitle">{{ .Params.subtitle }}</p>
+  </div>
+  <div class="people-grid people-grid-full z">
+    {{ range .Pages }}
+    <a class="person-card" href="{{ .RelPermalink }}">
+      <img src="{{ .Params.photo | relURL }}" alt="{{ .Title }}" loading="lazy">
+      <span class="name caps">{{ .Title }}</span>
+      <span class="pronouns caps">({{ .Params.pronouns }})</span>
+      <p class="cred">{{ .Params.credentials }} · {{ .Params.based }}</p>
+      <p class="teaser">{{ .Params.teaser }}</p>
+    </a>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

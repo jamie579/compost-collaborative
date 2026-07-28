@@ -1,0 +1,10 @@
+{{ define "main" }}
+<main class="band-prose g-light">
+  <article class="prose z">
+    <p class="eyebrow caps">{{ .Params.eyebrow | default "✶" }}</p>
+    <h1 class="caps">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
+    {{ .Content }}
+  </article>
+</main>
+{{ end }}

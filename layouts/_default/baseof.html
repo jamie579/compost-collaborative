@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
+<meta name="description" content="{{ .Description | default site.Params.description }}">
+{{ $css := resources.Get "css/main.css" | minify }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}">
+<link rel="icon" href="{{ "images/octopus.png" | relURL }}" type="image/png">
+</head>
+<body data-organism="{{ .Param "organism" | default "sparse" }}">
+
+<nav class="caps" aria-label="Main navigation">
+  {{ $current := . }}
+  {{ range site.Menus.main }}
+  <a href="{{ .URL | relURL }}"{{ if $current.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+  {{ end }}
+</nav>
+
+<div class="epigraph" id="epigraph" title="Click for another spore">
+  {{ $spores := site.Data.epigraphs.spores }}
+  {{ $first := index $spores 0 }}
+  <blockquote id="quote">»{{ $first.quote }}«</blockquote>
+  <cite id="cite">{{ $first.attribution }}</cite>
+  <span class="hint caps">⟳ another spore</span>
+</div>
+
+<canvas id="tent-under" aria-hidden="true"></canvas>
+<canvas id="tent-over" aria-hidden="true"></canvas>
+
+{{ block "main" . }}{{ end }}
+
+<footer class="caps">
+  The Compost Collaborative · we imagine otherwise, with creativity as critique ·
+  <a href="{{ "contact/" | relURL }}">get in contact</a>
+</footer>
+
+<script>
+  window.SPORES = {{ site.Data.epigraphs.spores | jsonify | safeJS }};
+</script>
+<script src="{{ "js/organism.js" | relURL }}" defer></script>
+</body>
+</html>
