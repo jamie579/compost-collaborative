@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- celestial record: grooves as orbital rings, spore-print label, one fruiting mushroom -->
+  <g fill="none" stroke="#efeaff">
+    <circle cx="100" cy="100" r="94" stroke-width="1.6" opacity=".85"/>
+    <circle cx="100" cy="100" r="87" stroke-width=".7" opacity=".35"/>
+    <circle cx="100" cy="100" r="81" stroke-width=".7" opacity=".5" stroke-dasharray="3 4"/>
+    <circle cx="100" cy="100" r="75" stroke-width=".7" opacity=".3"/>
+    <circle cx="100" cy="100" r="69" stroke-width=".7" opacity=".45"/>
+    <circle cx="100" cy="100" r="63" stroke-width=".7" opacity=".3" stroke-dasharray="1.5 3"/>
+    <circle cx="100" cy="100" r="57" stroke-width=".7" opacity=".4"/>
+    <circle cx="100" cy="100" r="51" stroke-width=".7" opacity=".28"/>
+    <circle cx="100" cy="100" r="45" stroke-width=".7" opacity=".4"/>
+  </g>
+  <!-- bioluminescent partial orbits -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="#46e8d4" stroke-width="1.4" opacity=".8"
+          stroke-dasharray="70 496" stroke-linecap="round" transform="rotate(-30 100 100)"/>
+  <circle cx="100" cy="100" r="66" fill="none" stroke="#ff3d9c" stroke-width="1.2" opacity=".75"
+          stroke-dasharray="46 370" stroke-linecap="round" transform="rotate(130 100 100)"/>
+  <circle cx="100" cy="100" r="78" fill="none" stroke="#c8f24b" stroke-width="1" opacity=".6"
+          stroke-dasharray="26 464" stroke-linecap="round" transform="rotate(250 100 100)"/>
+  <!-- spore-print label -->
+  <circle cx="100" cy="100" r="32" fill="#8a63d2" opacity=".22"/>
+  <circle cx="100" cy="100" r="32" fill="none" stroke="#a884ff" stroke-width="1" opacity=".8"/>
+  <g fill="#efeaff">
+    <circle cx="90" cy="88" r="1.3" opacity=".9"/><circle cx="108" cy="84" r=".9" opacity=".6"/>
+    <circle cx="116" cy="97" r="1.1" opacity=".8"/><circle cx="112" cy="112" r="1.4" opacity=".7"/>
+    <circle cx="97" cy="118" r=".8" opacity=".6"/><circle cx="85" cy="108" r="1.2" opacity=".85"/>
+    <circle cx="82" cy="96" r=".7" opacity=".5"/><circle cx="101" cy="92" r=".9" opacity=".7"/>
+  </g>
+  <g fill="#46e8d4"><circle cx="95" cy="103" r="1.1" opacity=".9"/><circle cx="107" cy="90" r=".8" opacity=".7"/></g>
+  <g fill="#ff3d9c"><circle cx="104" cy="105" r="1" opacity=".85"/><circle cx="88" cy="115" r=".8" opacity=".6"/></g>
+  <g fill="#c8f24b"><circle cx="110" cy="118" r=".9" opacity=".7"/><circle cx="93" cy="82" r=".8" opacity=".65"/></g>
+  <circle cx="100" cy="100" r="2.4" fill="#efeaff"/>
+  <!-- star sparkles -->
+  <g stroke="#efeaff" stroke-width=".9" opacity=".8">
+    <path d="M38 52 l0 8 M34 56 l8 0"/>
+    <path d="M164 140 l0 7 M160.5 143.5 l7 0"/>
+  </g>
+  <circle cx="152" cy="44" r="1.2" fill="#efeaff" opacity=".7"/>
+  <circle cx="46" cy="152" r="1" fill="#efeaff" opacity=".6"/>
+  <!-- one small mushroom fruiting from the rim, ~2 o'clock -->
+  <g transform="rotate(38 100 100)">
+    <path d="M100 6 q3 -6 1 -12" fill="none" stroke="#c8f24b" stroke-width="1.4" stroke-linecap="round"/>
+    <path d="M93 -6 a8 8 0 0 1 16 0" fill="none" stroke="#c8f24b" stroke-width="1.6" stroke-linecap="round"/>
+    <path d="M96 -6 l1.5 3 M101 -6 l0 3.4 M105 -6 l-1.5 3" stroke="#c8f24b" stroke-width=".8" opacity=".7"/>
+    <circle cx="107" cy="-14" r=".9" fill="#c8f24b" opacity=".8"/>
+    <circle cx="112" cy="-8" r=".7" fill="#c8f24b" opacity=".6"/>
+  </g>
+</svg>

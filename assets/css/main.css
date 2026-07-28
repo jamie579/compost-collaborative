@@ -157,6 +157,26 @@ h2{
 }
 .people-more:hover,.people-more:focus-visible{text-decoration:underline}
 
+/* ── affirmative music (dark) ── */
+.band-music{background:var(--void);padding:3.6rem 2rem}
+.music-tile{
+  display:flex;align-items:center;gap:2.6rem;flex-wrap:wrap;
+  max-width:66rem;margin:0 auto;text-decoration:none;color:#cfc3e6;
+}
+.record{
+  width:190px;height:190px;flex:none;
+  filter:drop-shadow(0 0 14px rgba(70,232,212,.45));
+  animation:spin 45s linear infinite;
+}
+.music-tile:hover .record{filter:drop-shadow(0 0 22px rgba(255,61,156,.6))}
+@keyframes spin{to{transform:rotate(360deg)}}
+.music-text{flex:1;min-width:260px}
+.band-music .eyebrow{color:var(--biolume)}
+.band-music h2{color:var(--marigold);margin-bottom:.7rem}
+.music-text p{margin:0 0 1rem;font-size:.95rem;max-width:38em}
+.music-cta{font-size:.72rem;font-weight:700;color:var(--acid)}
+.music-tile:hover .music-cta{text-decoration:underline}
+
 /* ── news (dark) ── */
 .band-notes{background:var(--void);color:#cfc3e6;padding:4rem 2rem 4.5rem}
 .band-notes h2{color:var(--acid)}
@@ -216,5 +236,6 @@ footer a:hover{text-decoration:underline}
 
 @media (prefers-reduced-motion:reduce){
   .octo{animation:none}
+  .record{animation:none}
   html{scroll-behavior:auto}
 }
