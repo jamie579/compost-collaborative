@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://compostcollaborative.online/sitemap.xml
