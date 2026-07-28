@@ -1,7 +1,7 @@
 ---
 title: "Patrick Martin"
 weight: 80
-pronouns: "to confirm"
+pronouns: "he/him"
 credentials: "Inf., Ph.D."
 based: "Québec City, Canada"
 photo: "images/people/patrick.svg"

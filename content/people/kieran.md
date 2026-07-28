@@ -1,7 +1,7 @@
 ---
 title: "Kieran Sheehan"
 weight: 90
-pronouns: "to confirm"
+pronouns: "he/him"
 credentials: "EdD, MA"
 based: "West Cumbria, UK"
 photo: "images/people/kieran.svg"
