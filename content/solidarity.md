@@ -1,7 +1,7 @@
 ---
 title: "Solidarity is a nursing intervention"
 eyebrow: "☽ Solidarity"
-subtitle: "Jane, Jess, Annie-Claude, Patrick, Jamie, Rae — and the whole heap."
+subtitle: "Jane, Jess, Annie-Claude, Patrick, Jamie — and the whole heap."
 ---
 
 During the hardest stretch of the pandemic we said it to camera, in two languages, from three countries: solidarity is a nursing intervention.
