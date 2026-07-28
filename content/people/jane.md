@@ -14,6 +14,9 @@ Jane is a white, bilingual, cis, hetero woman who works as a pediatric nurse pra
 
 ## Selected works
 
+- [A conversation with Amélie Perron](https://doi.org/10.1111/nup.70037) — *Nursing Philosophy* (2025)
+- [Imaginative Archives for a More Radical Nursing Future](https://doi.org/10.25071/2291-5796.187) — *Witness* (2025, with A.-C. Laurin)
+- [Notes on [post]human nursing: What It MIGHT Be, What it is Not](https://doi.org/10.1111/nin.12562) — *Nursing Inquiry* (2023, with the collective)
 - [We Have Never Been Nurses](https://doi.org/10.1097/ANS.0000000000000313) — *Advances in Nursing Science* (2020)
 - [Nursing for the Chthulucene](https://doi.org/10.1111/nup.12405) — *Nursing Philosophy* (2022)
 - [Nursing a Radical Imagination](https://doi.org/10.4324/9781003245957) — Routledge (2022, co-editor)

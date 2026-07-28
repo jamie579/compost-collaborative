@@ -15,6 +15,8 @@ Jess is a white, fat, queer, genderqueer, feminist, antiracist, abolitionist, nu
 
 ## Selected works
 
+- [Algorithmic bias in artificial intelligence is a problem — and the root issue is power](https://doi.org/10.1016/j.outlook.2023.102023) — *Nursing Outlook* (2023; American Academy of Nursing Article of the Year, 2025)
+- [Notes on [post]human nursing: What It MIGHT Be, What it is Not](https://doi.org/10.1111/nin.12562) — *Nursing Inquiry* (2023, with the collective)
 - [A radical imagination for nursing: Generative insurrection, creative resistance](https://doi.org/10.1111/nup.12371) — *Nursing Philosophy* (2021)
 - [We Have Never Been Nurses: Nursing in the Anthropocene, Undoing the Capitalocene](https://doi.org/10.1097/ANS.0000000000000313) — *Advances in Nursing Science* (2020)
 - [Nursing for the Chthulucene: Abolition, affirmation, antifascism](https://doi.org/10.1111/nup.12405) — *Nursing Philosophy* (2022)

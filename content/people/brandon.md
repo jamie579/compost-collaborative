@@ -15,6 +15,9 @@ Brandon is a white, cis, queer and newly middle class man. A registered nurse (M
 
 ## Selected works
 
+- [We a*ll c*are, ALL the time](https://doi.org/10.1111/nin.12572) — *Nursing Inquiry* (2023)
+- [Mattering: Per/forming nursing philosophy in the Chthulucene](https://doi.org/10.1111/nup.12452) — *Nursing Philosophy* (2023, with the collective)
+- [Build It Together](https://doi.org/10.3928/02793695-20230417-02) — *Journal of Psychosocial Nursing and Mental Health Services* (2023)
 - [We Have Never Been Nurses](https://doi.org/10.1097/ANS.0000000000000313) — *Advances in Nursing Science* (2020)
 - [Patterns of Knowing and Being in the COVIDicene](https://doi.org/10.1097/ANS.0000000000000387) — *Advances in Nursing Science* (2022)
 - [Nursing for the Chthulucene](https://doi.org/10.1111/nup.12405) — *Nursing Philosophy* (2022)

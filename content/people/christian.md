@@ -15,3 +15,4 @@ Christian Tedjasukmana (he/him) RN, BSN, MFA is a nurse, artist, and designer ba
 
 - Metastatic growth: The healthcare industry's increasing contribution to the plasticene — in [*Nursing a Radical Imagination*](https://doi.org/10.4324/9781003245957) (Routledge, 2022)
 - [Notes on [post]human nursing: What It MIGHT Be, What it is Not](https://doi.org/10.1111/nin.12562) — *Nursing Inquiry* (2023)
+- [Mattering: Per/forming nursing philosophy in the Chthulucene](https://doi.org/10.1111/nup.12452) — *Nursing Philosophy* (2023, with the collective)
