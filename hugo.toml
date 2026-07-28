@@ -1,5 +1,5 @@
 # Staging baseURL — switch to https://compostcollaborative.online/ at DNS cutover
-baseURL = "https://jamiebriansmith.com/compost-collaborative/"
+baseURL = "https://compostcollaborative.online/"
 languageCode = "en-gb"
 title = "The Compost Collaborative"
 disableKinds = ["taxonomy", "term"]
