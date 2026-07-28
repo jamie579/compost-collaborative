@@ -4,9 +4,29 @@ eyebrow: "⊕ Works"
 subtitle: "The collective bibliography — spores in print."
 ---
 
+## 2024–2026
+
+<div class="work"><p>Smith, J. B. (2026). The Camp of Reason: Spinoza's <em>Ethics</em> as Affirmative Excess. <em>Nursing Philosophy</em>. <a href="https://doi.org/10.1111/nup.70081">doi:10.1111/nup.70081</a></p></div>
+
+<div class="work"><p>Willis, E., &amp; Smith, J. B. (2026). Beyond Heroic Individualism: Cultivating Relational Buffers Against Healthcare System Strain. <em>Gender, Work &amp; Organization</em>. <a href="https://doi.org/10.1111/gwao.70193">doi:10.1111/gwao.70193</a></p></div>
+
+<div class="work"><p>Smith, J. B. (2025). Staying With the Trouble in Nursing 12.5 Hours at a Time. <em>Nursing Philosophy</em>. <a href="https://doi.org/10.1111/nup.70060">doi:10.1111/nup.70060</a></p></div>
+
+<div class="work"><p>Martin, P., &amp; Laurin, A.-C. (2025). To Our Nurse Friends: An Ode to Resistance. <em>Nursing Philosophy</em>. <a href="https://doi.org/10.1111/nup.70006">doi:10.1111/nup.70006</a></p></div>
+
+<div class="work"><p>Hopkins-Walsh, J., &amp; Laurin, A.-C. (2025). Imaginative Archives for a More Radical Nursing Future. <em>Witness: The Canadian Journal of Critical Nursing Discourse</em>, 7(2). <a href="https://doi.org/10.25071/2291-5796.187">doi:10.25071/2291-5796.187</a></p></div>
+
+<div class="work"><p>Laurin, A.-C., &amp; Martin, P. (2024). Thinking through critical posthumanism: Nursing as political and affirmative becoming. <em>Nursing Inquiry</em>, 31(1). <a href="https://doi.org/10.1111/nin.12606">doi:10.1111/nin.12606</a></p></div>
+
+## 2023
+
 <div class="work"><p>Dillard-Wright, J., Smith, J. B., Hopkins-Walsh, J., Willis, E., Brown, B. B., &amp; Tedjasukmana, E. C. (2023). Notes on [post]human nursing: What It MIGHT Be, What it is Not. <em>Nursing Inquiry</em>. <a href="https://doi.org/10.1111/nin.12562">doi:10.1111/nin.12562</a></p></div>
 
+<div class="work"><p>Martin, P., &amp; Laurin, A.-C. (2023). What can anarchism do for nursing? <em>Nursing Philosophy</em>, 24(3). <a href="https://doi.org/10.1111/nup.12437">doi:10.1111/nup.12437</a></p></div>
+
 <div class="work"><p>Laurin, A.-C., Hopkins-Walsh, J., Smith, J. B., Brown, B., Martin, P., &amp; Tedjasukmana, E. C. (2023). Mattering: Per/forming nursing philosophy in the Chthulucene. <em>Nursing Philosophy</em>, 24(3), e12452. <a href="https://doi.org/10.1111/nup.12452">doi:10.1111/nup.12452</a></p></div>
+
+## 2020–2022
 
 <div class="work"><p>Hopkins-Walsh, J., Dillard-Wright, J., Brown, B., Smith, J., &amp; Willis, E. (2022). Critical posthuman nursing care: Bodies reborn and the ethical imperative for composting. <em>Witness: The Canadian Journal of Critical Nursing Discourse</em>, 4(1), 16–35. <a href="https://doi.org/10.25071/2291-5796.126">doi:10.25071/2291-5796.126</a></p></div>
 

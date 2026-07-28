@@ -18,7 +18,7 @@ Video testimonies from the collective. [Watch →](../solidarity/)
 
 ## Constantly Becoming With
 
-Video wonderings by Kieran Sheehan. Yorkshire, UK, 2022.
+Video wonderings by [Kieran Sheehan](../people/kieran/), the collective's artist. Yorkshire, UK, 2022.
 
 ## Drift Journal
 
@@ -27,3 +27,7 @@ A living, traveling work of art-in-progress, art-as-praxis. Journal constructed 
 ## Affirmative Music
 
 Our ever expanding shared playlist that creates shared understanding and brings joy.
+
+## Writing together
+
+The collective keeps composting in print — from *Notes on [post]human nursing* (2023) to new work appearing through 2026. The growing bibliography lives on the [Works](../works/) page.
