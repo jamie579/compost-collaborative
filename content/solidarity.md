@@ -1,4 +1,5 @@
 ---
+description: "Solidarity is a nursing intervention: video testimonies from the collective, recorded during the pandemic."
 title: "Solidarity is a nursing intervention"
 eyebrow: "☽ Solidarity"
 subtitle: "Jane, Jess, Annie-Claude, Patrick, Jamie — and the whole heap."

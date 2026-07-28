@@ -1,4 +1,5 @@
 ---
+description: "Get in contact with the Compost Collaborative."
 title: "Contact"
 eyebrow: "☽ Contact"
 subtitle: "If you want to join, get in contact. Come question everything you know about nursing research with us."

@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ site.Title }}</title>
 <meta name="description" content="{{ .Description | default site.Params.description }}">
+{{ partial "seo.html" . }}
 {{ $css := resources.Get "css/main.css" | minify }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}">
 <link rel="icon" href="{{ "images/octopus.png" | relURL }}" type="image/png">

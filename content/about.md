@@ -1,4 +1,5 @@
 ---
+description: "Who the Compost Collaborative are: an international research collective of nurses, artists, critical theorists and anti-fascists using creativity as critique."
 title: "About us"
 eyebrow: "✶ Hallo."
 subtitle: "We imagine otherwise, with creativity as critique."

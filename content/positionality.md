@@ -1,4 +1,5 @@
 ---
+description: "The collective's position statement: the people and places we come from are not innocent."
 title: "Our position statement"
 eyebrow: "⊕ Positionality"
 subtitle: "The people and places we come from are not innocent."

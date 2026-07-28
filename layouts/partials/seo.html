@@ -1,0 +1,65 @@
+{{- $desc := .Description | default .Params.teaser | default site.Params.description -}}
+{{- $title := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) -}}
+{{- $img := "images/social-card.jpg" | absURL -}}
+{{- if .Params.photo }}{{ $img = .Params.photo | absURL }}{{ end -}}
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="{{ cond .IsHome "website" "article" }}">
+<meta property="og:image" content="{{ $img }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+<meta name="twitter:image" content="{{ $img }}">
+{{- if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "additionalType": "https://schema.org/ResearchProject",
+  "name": "The Compost Collaborative",
+  "alternateName": "Compost Collaborative",
+  "url": {{ site.BaseURL | jsonify }},
+  "logo": {{ "images/octopus.png" | absURL | jsonify }},
+  "description": "An international interdisciplinary research collective of nurses, artists, critical theorists and anti-fascists working with critical posthumanism and feminist new materialism in nursing.",
+  "knowsAbout": ["critical posthumanism", "nursing philosophy", "feminist new materialism", "planetary health", "nursing"],
+  "member": [
+    {{- $people := where site.RegularPages "Section" "people" -}}
+    {{- range $i, $p := $people }}{{ if $i }},{{ end }}
+    {
+      "@type": "Person",
+      "name": {{ $p.Title | jsonify }},
+      "url": {{ $p.Permalink | jsonify }}{{ with $p.Params.orcid }},
+      "sameAs": [{{ . | jsonify }}]{{ end }}
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end }}
+{{- if eq .Section "people" }}{{ if not .IsNode }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ .Title | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  "image": {{ .Params.photo | absURL | jsonify }},
+  "description": {{ .Params.teaser | jsonify }},
+  "memberOf": {
+    "@type": "Organization",
+    "name": "The Compost Collaborative",
+    "url": {{ site.BaseURL | jsonify }}
+  },
+  "sameAs": [
+    {{- $links := slice }}
+    {{- with .Params.orcid }}{{ $links = $links | append . }}{{ end }}
+    {{- with .Params.scholar }}{{ $links = $links | append . }}{{ end }}
+    {{- with .Params.website }}{{ $links = $links | append . }}{{ end }}
+    {{- range $i, $l := $links }}{{ if $i }},{{ end }}{{ $l | jsonify }}{{ end }}
+  ]
+}
+</script>
+{{- end }}{{ end }}

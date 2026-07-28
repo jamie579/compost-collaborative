@@ -1,4 +1,5 @@
 ---
+description: "The imperative for critical posthuman research in nursing."
 title: "The imperative for critical posthuman research in nursing"
 eyebrow: "✶ Imperative"
 subtitle: "J. Smith, J. Dillard-Wright, J. Hopkins-Walsh, B. Brown, P. Martin, A.-C. Laurin"

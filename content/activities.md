@@ -1,4 +1,5 @@
 ---
+description: "Conferences, panels, podcasts and workshops by the Compost Collaborative, from IPONS to BlastFest."
 title: "Activities"
 eyebrow: "☿ Activities"
 subtitle: "Fruiting bodies appear irregularly. These are ours."

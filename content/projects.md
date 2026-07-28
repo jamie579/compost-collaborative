@@ -1,4 +1,5 @@
 ---
+description: "The collective's projects: Nursing a Radical Imagination, the Nursing Inquiry critical posthumanism special issue, the camp collection, video wonderings, and more."
 title: "Projects"
 eyebrow: "✶ Projects"
 subtitle: "Our silence will not protect us. Critical nursing research for affirmative change."

@@ -1,4 +1,5 @@
 ---
+description: "The collective bibliography: critical posthumanist nursing scholarship, 2020 to 2026, with DOIs."
 title: "Published works"
 eyebrow: "⊕ Works"
 subtitle: "The collective bibliography — spores in print."

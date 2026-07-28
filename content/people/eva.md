@@ -4,7 +4,7 @@ weight: 40
 pronouns: "she/her"
 credentials: "BA, MSc, RN"
 based: "Germany"
-photo: "images/people/eva.webp"
+photo: "images/people/eva.jpg"
 orcid: "https://orcid.org/0000-0002-1636-0591"
 teaser: "Nurse and sociologist; PhD candidate in the sociology of health, University of Siegen."
 ---
