@@ -9,7 +9,7 @@ orcid: "https://orcid.org/0000-0003-3966-9257"
 teaser: "Professor of nursing at Université Laval; care ethics, anarchism, and nurse resistance."
 ---
 
-Patrick Martin is a professor (professeur) in the Faculté des sciences infirmières at Université Laval, Québec, Canada. His work brings political philosophy into nursing: care ethics and democratic institutions, anarchism, epistemic injustice, and nurses' resistance. He co-authored the collective's imperative for critical posthuman research in nursing and appears in the Solidarity videos.
+Patrick Martin is a professor (professeur) in the Faculté des sciences infirmières at Université Laval, Québec, Canada. His work brings political philosophy into nursing: care ethics and democratic institutions, anarchism, epistemic injustice, and nurses' resistance. He co-authored the collective's imperative for critical posthuman research in nursing and appears in the Solidarity videos. In 2025 the [Fondation de l'IUCPQ funded](https://www.fsi.ulaval.ca/actualites/nouvelle-subvention-pour-patrick-martin-de-la-fondation-de-liucpq) his study of LGBTQ2S+ nurses' experiences of caring for LGBTQ2S+ patients.
 
 *Photo and full bio to come — this profile was rebuilt from verified public sources during the site migration; Patrick will expand it.*
 

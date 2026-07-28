@@ -9,7 +9,7 @@ orcid: "https://orcid.org/0009-0009-1927-5796"
 teaser: "Nurse, artist, and designer — art against myopic healthcare practices."
 ---
 
-Christian Tedjasukmana (he/him) RN, BSN, MFA is a nurse, artist, and designer based in the USA. Christian melds nursing and art together; his work calls attention to current myopic healthcare practices that contribute to climate change and negatively impact health.
+Christian Tedjasukmana (he/him) RN, BSN, MFA is a nurse, artist, and designer based in the USA. Christian melds nursing and art together; his work calls attention to current myopic healthcare practices that contribute to climate change and negatively impact health. His public work includes the mural *The Assimilation of Emmanuel*, part of Burlington City Arts' [4 x 8 Mural Project](https://www.burlingtoncityarts.org/4-x-8-mural-project-legacy) on race and belonging.
 
 ## Selected works
 

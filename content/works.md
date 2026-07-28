@@ -8,6 +8,8 @@ subtitle: "The collective bibliography — spores in print."
 
 <div class="work"><p>Smith, J. B. (2026). The Camp of Reason: Spinoza's <em>Ethics</em> as Affirmative Excess. <em>Nursing Philosophy</em>. <a href="https://doi.org/10.1111/nup.70081">doi:10.1111/nup.70081</a></p></div>
 
+<div class="work"><p>Smith, J. B., Willis, E., Sheehan, K., &amp; Jones, E. (2025). Making Care Perceptible: Nursing/Intuitive Movement/Posthuman Care. In G. Klumbytė, E. Jones, &amp; R. Braidotti (Eds.), <em>Posthuman Convergences: Transdisciplinary Methods and Practices</em> (pp. 287–313). Edinburgh University Press. <a href="https://edinburghuniversitypress.com/book-posthuman-convergences.html">publisher</a></p></div>
+
 <div class="work"><p>Willis, E., &amp; Smith, J. B. (2026). Beyond Heroic Individualism: Cultivating Relational Buffers Against Healthcare System Strain. <em>Gender, Work &amp; Organization</em>. <a href="https://doi.org/10.1111/gwao.70193">doi:10.1111/gwao.70193</a></p></div>
 
 <div class="work"><p>Smith, J. B. (2025). Staying With the Trouble in Nursing 12.5 Hours at a Time. <em>Nursing Philosophy</em>. <a href="https://doi.org/10.1111/nup.70060">doi:10.1111/nup.70060</a></p></div>
