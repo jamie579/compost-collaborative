@@ -24,15 +24,23 @@
   "url": {{ site.BaseURL | jsonify }},
   "logo": {{ "images/octopus.png" | absURL | jsonify }},
   "description": "An international interdisciplinary research collective of nurses, artists, critical theorists and anti-fascists working with critical posthumanism and feminist new materialism in nursing.",
-  "knowsAbout": ["critical posthumanism", "nursing philosophy", "feminist new materialism", "planetary health", "nursing"],
+  "knowsAbout": ["critical posthumanism", "nursing philosophy", "feminist new materialism", "planetary health", "institutional ethnography", "nursing"],
   "member": [
     {{- $people := where site.RegularPages "Section" "people" -}}
     {{- range $i, $p := $people }}{{ if $i }},{{ end }}
+    {{- $links := slice -}}
+    {{- with $p.Params.orcid }}{{ $links = $links | append . }}{{ end -}}
+    {{- with $p.Params.scholar }}{{ $links = $links | append . }}{{ end -}}
+    {{- with $p.Params.website }}{{ $links = $links | append . }}{{ end -}}
+    {{- with $p.Params.wikidata }}{{ $links = $links | append . }}{{ end -}}
+    {{- with $p.Params.charite }}{{ $links = $links | append . }}{{ end -}}
+    {{- with $p.Params.napier }}{{ $links = $links | append . }}{{ end -}}
+    {{- with $p.Params.linkedin }}{{ $links = $links | append . }}{{ end -}}
     {
       "@type": "Person",
       "name": {{ $p.Title | jsonify }},
-      "url": {{ $p.Permalink | jsonify }}{{ with $p.Params.orcid }},
-      "sameAs": [{{ . | jsonify }}]{{ end }}
+      "url": {{ $p.Permalink | jsonify }}{{ if gt (len $links) 0 }},
+      "sameAs": [{{ range $j, $l := $links }}{{ if $j }},{{ end }}{{ $l | jsonify }}{{ end }}]{{ end }}
     }
     {{- end }}
   ]
@@ -58,6 +66,10 @@
     {{- with .Params.orcid }}{{ $links = $links | append . }}{{ end }}
     {{- with .Params.scholar }}{{ $links = $links | append . }}{{ end }}
     {{- with .Params.website }}{{ $links = $links | append . }}{{ end }}
+    {{- with .Params.wikidata }}{{ $links = $links | append . }}{{ end }}
+    {{- with .Params.charite }}{{ $links = $links | append . }}{{ end }}
+    {{- with .Params.napier }}{{ $links = $links | append . }}{{ end }}
+    {{- with .Params.linkedin }}{{ $links = $links | append . }}{{ end }}
     {{- range $i, $l := $links }}{{ if $i }},{{ end }}{{ $l | jsonify }}{{ end }}
   ]
 }
