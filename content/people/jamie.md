@@ -1,5 +1,6 @@
 ---
 title: "Jamie B. Smith"
+aliases: ["/jamie/"]
 weight: 50
 pronouns: "he/him"
 credentials: "PhD, MA, MSc, BSc (Hons), RN"

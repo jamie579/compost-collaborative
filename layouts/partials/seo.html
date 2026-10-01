@@ -14,64 +14,52 @@
 <meta name="twitter:description" content="{{ $desc }}">
 <meta name="twitter:image" content="{{ $img }}">
 {{- if .IsHome }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "additionalType": "https://schema.org/ResearchProject",
-  "name": "The Compost Collaborative",
-  "alternateName": "Compost Collaborative",
-  "url": {{ site.BaseURL | jsonify }},
-  "logo": {{ "images/octopus.png" | absURL | jsonify }},
-  "description": "An international interdisciplinary research collective of nurses, artists, critical theorists and anti-fascists working with critical posthumanism and feminist new materialism in nursing.",
-  "knowsAbout": ["critical posthumanism", "nursing philosophy", "feminist new materialism", "planetary health", "institutional ethnography", "nursing"],
-  "member": [
-    {{- $people := where site.RegularPages "Section" "people" -}}
-    {{- range $i, $p := $people }}{{ if $i }},{{ end }}
-    {{- $links := slice -}}
-    {{- with $p.Params.orcid }}{{ $links = $links | append . }}{{ end -}}
-    {{- with $p.Params.scholar }}{{ $links = $links | append . }}{{ end -}}
-    {{- with $p.Params.website }}{{ $links = $links | append . }}{{ end -}}
-    {{- with $p.Params.wikidata }}{{ $links = $links | append . }}{{ end -}}
-    {{- with $p.Params.charite }}{{ $links = $links | append . }}{{ end -}}
-    {{- with $p.Params.napier }}{{ $links = $links | append . }}{{ end -}}
-    {{- with $p.Params.linkedin }}{{ $links = $links | append . }}{{ end -}}
-    {
-      "@type": "Person",
-      "name": {{ $p.Title | jsonify }},
-      "url": {{ $p.Permalink | jsonify }}{{ if gt (len $links) 0 }},
-      "sameAs": [{{ range $j, $l := $links }}{{ if $j }},{{ end }}{{ $l | jsonify }}{{ end }}]{{ end }}
-    }
-    {{- end }}
-  ]
-}
-</script>
+{{- $members := slice -}}
+{{- range where site.RegularPages "Section" "people" -}}
+  {{- $links := slice -}}
+  {{- with .Params.orcid }}{{ $links = $links | append . }}{{ end -}}
+  {{- with .Params.scholar }}{{ $links = $links | append . }}{{ end -}}
+  {{- with .Params.website }}{{ $links = $links | append . }}{{ end -}}
+  {{- with .Params.wikidata }}{{ $links = $links | append . }}{{ end -}}
+  {{- with .Params.charite }}{{ $links = $links | append . }}{{ end -}}
+  {{- with .Params.napier }}{{ $links = $links | append . }}{{ end -}}
+  {{- with .Params.linkedin }}{{ $links = $links | append . }}{{ end -}}
+  {{- $member := dict "@type" "Person" "name" .Title "url" .Permalink -}}
+  {{- if gt (len $links) 0 }}{{ $member = merge $member (dict "sameAs" $links) }}{{ end -}}
+  {{- $members = $members | append $member -}}
+{{- end -}}
+{{- $organization := dict
+  "@context" "https://schema.org"
+  "@type" "Organization"
+  "additionalType" "https://schema.org/ResearchProject"
+  "name" "The Compost Collaborative"
+  "alternateName" "Compost Collaborative"
+  "url" site.BaseURL
+  "logo" ("images/octopus.png" | absURL)
+  "description" "An international interdisciplinary research collective of nurses, artists, critical theorists and anti-fascists working with critical posthumanism and feminist new materialism in nursing."
+  "knowsAbout" (slice "critical posthumanism" "nursing philosophy" "feminist new materialism" "planetary health" "institutional ethnography" "nursing")
+  "member" $members
+-}}
+<script type="application/ld+json">{{ $organization | jsonify | safeJS }}</script>
 {{- end }}
-{{- if eq .Section "people" }}{{ if not .IsNode }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": {{ .Title | jsonify }},
-  "url": {{ .Permalink | jsonify }},
-  "image": {{ .Params.photo | absURL | jsonify }},
-  "description": {{ .Params.teaser | jsonify }},
-  "memberOf": {
-    "@type": "Organization",
-    "name": "The Compost Collaborative",
-    "url": {{ site.BaseURL | jsonify }}
-  },
-  "sameAs": [
-    {{- $links := slice }}
-    {{- with .Params.orcid }}{{ $links = $links | append . }}{{ end }}
-    {{- with .Params.scholar }}{{ $links = $links | append . }}{{ end }}
-    {{- with .Params.website }}{{ $links = $links | append . }}{{ end }}
-    {{- with .Params.wikidata }}{{ $links = $links | append . }}{{ end }}
-    {{- with .Params.charite }}{{ $links = $links | append . }}{{ end }}
-    {{- with .Params.napier }}{{ $links = $links | append . }}{{ end }}
-    {{- with .Params.linkedin }}{{ $links = $links | append . }}{{ end }}
-    {{- range $i, $l := $links }}{{ if $i }},{{ end }}{{ $l | jsonify }}{{ end }}
-  ]
-}
-</script>
-{{- end }}{{ end }}
+{{- if and (eq .Section "people") (not .IsNode) }}
+{{- $links := slice -}}
+{{- with .Params.orcid }}{{ $links = $links | append . }}{{ end -}}
+{{- with .Params.scholar }}{{ $links = $links | append . }}{{ end -}}
+{{- with .Params.website }}{{ $links = $links | append . }}{{ end -}}
+{{- with .Params.wikidata }}{{ $links = $links | append . }}{{ end -}}
+{{- with .Params.charite }}{{ $links = $links | append . }}{{ end -}}
+{{- with .Params.napier }}{{ $links = $links | append . }}{{ end -}}
+{{- with .Params.linkedin }}{{ $links = $links | append . }}{{ end -}}
+{{- $person := dict
+  "@context" "https://schema.org"
+  "@type" "Person"
+  "name" .Title
+  "url" .Permalink
+  "image" (.Params.photo | absURL)
+  "description" .Params.teaser
+  "memberOf" (dict "@type" "Organization" "name" "The Compost Collaborative" "url" site.BaseURL)
+  "sameAs" $links
+-}}
+<script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
+{{- end }}
