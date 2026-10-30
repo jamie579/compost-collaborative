@@ -7,7 +7,7 @@ subtitle: "Fruiting bodies appear irregularly. These are ours."
 
 ## 2026
 
-**IPONS 28th International Nursing Philosophy Conference — UC Irvine, 22–24 July 2026.** Seven of us joined the programme, with Borderlands, camp and crip futures in the mix. [Read the conference note](../news/ipons-2026/).
+**IPONS 28th International Nursing Philosophy Conference — UC Irvine, 22–24 July 2026.** The programme brought together Borderlands, camp and crip futures, with contributions from collective members. [Read the conference note](../news/ipons-2026/).
 
 **"Rumor Without Recourse: The Lavender Scare Comes to Teacher's College"** — Jess presented her queer nursing history research at the UMass Elaine Marieb College of Nursing speaker series, March 2026.
 

@@ -79,6 +79,3 @@ this site to be readable or crawlable.
   (for example, “we are all nurses” and “we are all abled”) that the group should
   review in light of its present membership. These self-descriptions have not
   been silently rewritten.
-- The full IPONS 2026 participation account was retained from the existing
-  site; the linked IPONS announcement independently confirms dates, venue,
-  theme and co-chairs, but not every programme contribution.
