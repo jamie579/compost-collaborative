@@ -5,6 +5,8 @@ eyebrow: "⊕ Works"
 subtitle: "The collective bibliography — spores in print."
 ---
 
+Work by collective members, including shared writing and individual contributions. Read about the collaborations behind it on [Projects](../projects/).
+
 ## 2024–2026
 
 <div class="work"><p>Smith, J. B. (2026). The Camp of Reason: Spinoza's <em>Ethics</em> as Affirmative Excess. <em>Nursing Philosophy</em>. <a href="https://doi.org/10.1111/nup.70081">doi:10.1111/nup.70081</a></p></div>

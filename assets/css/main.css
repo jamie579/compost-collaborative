@@ -12,6 +12,8 @@
   --acid:#c8f24b;
   --biolume:#46e8d4;
   --muted:#6c6478;
+  --magenta-ink:#ad1463;
+  --violet-ink:#7045b4;
   --dark-text:#efeaff;
 }
 *{box-sizing:border-box}
@@ -45,8 +47,8 @@ nav{
   position:sticky;top:0;z-index:9;
 }
 nav a{color:var(--ink);text-decoration:none;font-size:.72rem;font-weight:600}
-nav a:hover,nav a:focus-visible{color:var(--electric)}
-nav a[aria-current="page"]{color:var(--electric)}
+nav a:hover,nav a:focus-visible{color:#243ed8}
+nav a[aria-current="page"]{color:#243ed8}
 nav a:focus-visible{outline:2px solid var(--electric);outline-offset:3px}
 
 /* ── epigraph band ── */
@@ -54,12 +56,11 @@ nav a:focus-visible{outline:2px solid var(--electric);outline-offset:3px}
   background:var(--paper);
   text-align:center;
   padding:2.2rem 1.5rem 1.9rem;
-  cursor:pointer;
   border-bottom:1px solid #e9e2f2;
 }
 .epigraph blockquote{margin:0 auto;max-width:46em;font-weight:700;font-size:1.05rem;line-height:1.5}
 .epigraph cite{display:block;margin-top:.55rem;font-style:italic;font-weight:400;font-size:.88rem;color:var(--muted)}
-.epigraph .hint{display:block;margin-top:.7rem;font-size:.6rem;color:var(--violet)}
+.epigraph .hint{display:block;margin:.7rem auto 0;padding:.5rem .65rem;border:1px solid currentColor;background:transparent;font:inherit;font-size:.65rem;color:var(--violet-ink);cursor:pointer}
 
 /* ── hero ── */
 header.g-dark{
@@ -83,7 +84,7 @@ header.g-dark{
 h1{margin:0;font-size:clamp(1.9rem,5.4vw,3.4rem);line-height:1.32;font-weight:700}
 header h1{color:var(--marigold)}
 header h1 span{
-  background:var(--violet);
+  background:var(--violet-ink);
   padding:.05em .3em;
   -webkit-box-decoration-break:clone;box-decoration-break:clone;
 }
@@ -238,4 +239,28 @@ footer a:hover{text-decoration:underline}
   .octo{animation:none}
   .record{animation:none}
   html{scroll-behavior:auto}
+}
+
+/* Focus, contrast and narrow layouts keep the same palette and artwork. */
+:where(a,button):focus-visible{outline:3px solid currentColor;outline-offset:4px}
+.skip-link{position:fixed;top:.5rem;left:.5rem;z-index:20;padding:.6rem 1rem;background:var(--paper);color:var(--ink);transform:translateY(-180%)}
+.skip-link:focus{transform:translateY(0)}
+#main-content{scroll-margin-top:8rem}
+#main-content:focus{outline:none}
+.g-light .eyebrow,.people-more,.prose a,.prose-body a,.member-links a{color:var(--magenta-ink)}
+.prose h2,.prose-body h2,.person-card .pronouns,.member-head .pronouns,.video-grid figcaption{color:var(--violet-ink)}
+.news-date{font-size:.8rem;color:var(--muted);margin:.5rem 0 1rem}
+.band-notes .news-date{color:#cfc3e6;font-size:.75rem}
+.news-more{color:var(--biolume);font-size:.72rem}
+.news-entry{border-top:1px solid #d8cee4;margin-top:2rem;padding-top:.5rem}
+.news-entry h2{letter-spacing:.05em;font-size:1.15rem}
+.prose,.member,.music-text{overflow-wrap:break-word}
+@media(max-width:600px){
+  nav{gap:.3rem 1.1rem;padding:.75rem 1rem}
+  nav a{padding:.25rem 0;letter-spacing:.12em}
+  header h1{font-size:clamp(1.2rem,5.2vw,1.9rem);letter-spacing:.14em}
+  .hero-text{margin:-4.5rem auto 0;padding-bottom:4rem}
+  .band-prose,.band-people,.patches-band,.band-music,.band-notes{padding-left:1.25rem;padding-right:1.25rem}
+  .music-text{min-width:0}
+  .news-grid,.video-grid{grid-template-columns:1fr}
 }

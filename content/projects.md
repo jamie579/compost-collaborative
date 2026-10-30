@@ -5,6 +5,8 @@ eyebrow: "✶ Projects"
 subtitle: "Our silence will not protect us. Critical nursing research for affirmative change."
 ---
 
+Our ongoing collaborations and creative work live here. For citations, visit [Published works](../works/); for conferences, panels and workshops, visit [Activities](../activities/).
+
 ## Nursing a Radical Imagination
 
 Examining the historical context of healthcare whilst focusing on building a more just, equitable world, this book proposes a radical imagination for nursing and presents possibilities for speculative futures embracing queer, feminist, posthuman, and abolitionist frames. Edited by Jess Dillard-Wright, Jane Hopkins-Walsh and Brandon Blaine Brown (Routledge, 2022). In the *Journal of Advanced Nursing*, Mick McKeown urged nurses to "read and act on the text". [The book →](https://doi.org/10.4324/9781003245957) · [McKeown's editorial →](https://doi.org/10.1111/jan.15530)
@@ -25,7 +27,7 @@ Jamie guest-edited a collection on camp for *Nursing Philosophy* — what happen
 
 <img src="../images/cbw-still.jpg" alt="Still from Constantly Becoming With, video wonderings by Kieran Sheehan" style="width:100%;border:1.5px solid var(--violet)">
 
-Video wonderings by [Kieran Sheehan](../people/kieran/), the collective's movement artist. 2022, 25 minutes. The full film has been preserved from the old site and will stream here again soon.
+Video wonderings by [Kieran Sheehan](../people/kieran/), the collective's movement artist. 2022, 25 minutes. The full film is not yet available on this site.
 
 ## Making Care Perceptible
 
@@ -33,7 +35,7 @@ Nursing / intuitive movement / posthuman care: Jamie, Eva and Kieran, with posth
 
 ## The Imperative
 
-The imperative for critical posthuman research in nursing — our shared statement of why compost, why now. [Read →](../imperative/)
+The imperative for critical posthuman research in nursing — our shared statement of why compost, why now, with links to related published work while the full text is being prepared. [Visit the imperative →](../imperative/)
 
 ## Solidarity is a Nursing Intervention
 
@@ -45,7 +47,7 @@ Led by Peter Hopkins and Jane Hopkins-Walsh: the anchor piece of the Nurses and 
 
 ## Drift Journal
 
-A living, traveling work of art-in-progress, art-as-praxis. Journal constructed by Jane Hopkins-Walsh and released into the world in February 2021.
+A living, travelling work of art-in-progress, art-as-praxis. Journal constructed by Jane Hopkins-Walsh and released into the world in February 2021.
 
 ## Affirmative Music
 

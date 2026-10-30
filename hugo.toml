@@ -1,11 +1,11 @@
-# Staging baseURL — switch to https://compostcollaborative.online/ at DNS cutover
+# Canonical public address; local previews override only the serving address.
 baseURL = "https://compostcollaborative.online/"
 languageCode = "en-gb"
 title = "The Compost Collaborative"
 disableKinds = ["taxonomy", "term"]
 
 [params]
-  strapline = "We are an interdisciplinary research group comprised of nurses, artists, critical theorists and anti-fascists who are committed to understanding how we can use creativity, understanding and affirmation."
+  strapline = "Nurses, artists, critical theorists and anti-fascists. We make research, art and collective experiments in care through critical posthumanism."
   description = "An international interdisciplinary research group of nurses, artists, critical theorists and anti-fascists — critical posthumanist nursing, creativity as critique."
 
 [markup.goldmark.renderer]
@@ -28,17 +28,17 @@ disableKinds = ["taxonomy", "term"]
   url = "/people/"
   weight = 40
 [[menu.main]]
-  name = "Positionality"
-  url = "/positionality/"
-  weight = 50
-[[menu.main]]
-  name = "Works"
+  name = "Published works"
   url = "/works/"
   weight = 60
 [[menu.main]]
   name = "Activities"
   url = "/activities/"
   weight = 70
+[[menu.main]]
+  name = "News from the heap"
+  url = "/news/"
+  weight = 75
 [[menu.main]]
   name = "Contact"
   url = "/contact/"

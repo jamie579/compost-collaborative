@@ -7,7 +7,7 @@ subtitle: "Fruiting bodies appear irregularly. These are ours."
 
 ## 2026
 
-**IPONS 28th International Nursing Philosophy Conference — UC Irvine, 22–24 July 2026.** Seven of us on one programme, "Listening and Speaking Otherwise: Encounters at the Edge of Nursing and Philosophy". Jess co-chaired the conference. The collective's symposium *Nursing the Borderlands* brought together Jane (facilitating), Annie-Claude, Brandon and Eva. Jamie and Jess held the invited conversation *Camp and the Politics of Seriousness in Nursing and Health Philosophy* — what happens when nursing stops being polite and starts getting real — and Jamie facilitated the panel *Camp, Professionalism, and Performative Critique* (with Patrick presenting) and joined the invited conversation *Thinking the Event of Nursing*. Jess also facilitated the symposium *Nursing Crip Futures*. [Conference announcement →](https://ipons.online/2025/07/29/28th-annual-international-hybrid-nursing-philosophy-conference-july-22-24-2026/)
+**IPONS 28th International Nursing Philosophy Conference — UC Irvine, 22–24 July 2026.** Seven of us joined the programme, with Borderlands, camp and crip futures in the mix. [Read the conference note](../news/ipons-2026/).
 
 **"Rumor Without Recourse: The Lavender Scare Comes to Teacher's College"** — Jess presented her queer nursing history research at the UMass Elaine Marieb College of Nursing speaker series, March 2026.
 

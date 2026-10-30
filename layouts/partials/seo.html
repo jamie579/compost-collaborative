@@ -7,7 +7,8 @@
 <meta property="og:title" content="{{ $title }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:type" content="{{ cond .IsHome "website" "article" }}">
+<meta property="og:type" content="{{ if and (eq .Section "news") .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:locale" content="en_GB">
 <meta property="og:image" content="{{ $img }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ $title }}">
@@ -24,20 +25,20 @@
   {{- with .Params.charite }}{{ $links = $links | append . }}{{ end -}}
   {{- with .Params.napier }}{{ $links = $links | append . }}{{ end -}}
   {{- with .Params.linkedin }}{{ $links = $links | append . }}{{ end -}}
-  {{- $member := dict "@type" "Person" "name" .Title "url" .Permalink -}}
+  {{- $member := dict "@type" "Person" "@id" (printf "%s#person" .Permalink) "name" .Title "url" .Permalink -}}
   {{- if gt (len $links) 0 }}{{ $member = merge $member (dict "sameAs" $links) }}{{ end -}}
   {{- $members = $members | append $member -}}
 {{- end -}}
 {{- $organization := dict
   "@context" "https://schema.org"
   "@type" "Organization"
-  "additionalType" "https://schema.org/ResearchProject"
+  "@id" (printf "%s#collective" site.BaseURL)
   "name" "The Compost Collaborative"
   "alternateName" "Compost Collaborative"
   "url" site.BaseURL
   "logo" ("images/octopus.png" | absURL)
   "description" "An international interdisciplinary research collective of nurses, artists, critical theorists and anti-fascists working with critical posthumanism and feminist new materialism in nursing."
-  "knowsAbout" (slice "critical posthumanism" "nursing philosophy" "feminist new materialism" "planetary health" "institutional ethnography" "nursing")
+  "knowsAbout" (slice "critical posthumanism" "nursing philosophy" "feminist new materialism" "care")
   "member" $members
 -}}
 <script type="application/ld+json">{{ $organization | jsonify | safeJS }}</script>
@@ -54,12 +55,28 @@
 {{- $person := dict
   "@context" "https://schema.org"
   "@type" "Person"
+  "@id" (printf "%s#person" .Permalink)
   "name" .Title
   "url" .Permalink
   "image" (.Params.photo | absURL)
   "description" .Params.teaser
-  "memberOf" (dict "@type" "Organization" "name" "The Compost Collaborative" "url" site.BaseURL)
+  "memberOf" (dict "@id" (printf "%s#collective" site.BaseURL) "@type" "Organization" "name" "The Compost Collaborative" "url" site.BaseURL)
   "sameAs" $links
 -}}
 <script type="application/ld+json">{{ $person | jsonify | safeJS }}</script>
 {{- end }}
+
+{{- $pageType := "WebPage" -}}
+{{- if eq .RelPermalink "/about/" }}{{ $pageType = "AboutPage" }}{{ end -}}
+{{- if eq .RelPermalink "/contact/" }}{{ $pageType = "ContactPage" }}{{ end -}}
+{{- if .IsSection }}{{ $pageType = "CollectionPage" }}{{ end -}}
+{{- if and (eq .Section "people") .IsPage }}{{ $pageType = "ProfilePage" }}{{ end -}}
+{{- $page := dict "@context" "https://schema.org" "@type" $pageType
+  "@id" (printf "%s#webpage" .Permalink) "url" .Permalink
+  "name" $title "description" $desc "inLanguage" "en-GB"
+  "isPartOf" (dict "@type" "WebSite" "@id" (printf "%s#website" site.BaseURL) "url" site.BaseURL "name" site.Title)
+-}}
+{{- if and (eq .Section "people") .IsPage -}}
+  {{- $page = merge $page (dict "mainEntity" (dict "@id" (printf "%s#person" .Permalink))) -}}
+{{- end -}}
+<script type="application/ld+json">{{ $page | jsonify | safeJS }}</script>

@@ -1,4 +1,5 @@
 {{ define "main" }}
+<main id="main-content" tabindex="-1">
 <header class="g-dark">
   <canvas class="celestial" id="stars" aria-hidden="true"></canvas>
   <div class="octo-wrap">
@@ -20,7 +21,7 @@
       <article class="patch p-imperative">
         <h3 class="caps">The Imperative</h3>
         <p>Why compost, why now: the imperative for critical posthuman research in nursing — against extraction, with care, in the ruins of the systems we work inside.</p>
-        <a class="caps" href="{{ "imperative/" | relURL }}">Read the imperative →</a>
+        <a class="caps" href="{{ "imperative/" | relURL }}">Explore the imperative →</a>
       </article>
       <article class="patch p-solidarity">
         <h3 class="caps">Solidarity</h3>
@@ -35,7 +36,7 @@
       <article class="patch p-activities">
         <h3 class="caps">Activities</h3>
         <p>Panels, provocations, conference mischief. Fruiting bodies appear irregularly.</p>
-        <a class="caps" href="{{ "activities/" | relURL }}">Join something →</a>
+        <a class="caps" href="{{ "activities/" | relURL }}">Explore our activities →</a>
       </article>
     </div>
   </div>
@@ -75,14 +76,17 @@
     <p class="eyebrow caps">⊕ Latest</p>
     <h2 class="caps">News from the heap</h2>
     <div class="news-grid">
-      {{ range site.Data.news.items }}
+      {{ range first 3 (sort site.Data.news.items "date" "desc") }}
       <article class="news-item">
+        <p class="news-date">{{ .date_context }}: <time datetime="{{ .date }}">{{ .date_label }}</time></p>
         <h3 class="caps">{{ .title }}</h3>
         <p>{{ .text }}</p>
-        {{ with .link }}<a class="caps" href="{{ . }}">More →</a>{{ end }}
+        <a class="caps" href="{{ .path | relURL }}">{{ .link_text }} →</a>
       </article>
       {{ end }}
     </div>
+    <p><a class="news-more caps" href="{{ "news/" | relURL }}">All news from the heap →</a></p>
   </div>
 </section>
+</main>
 {{ end }}

@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main id="main-content" tabindex="-1" class="band-prose g-light">
+  <div class="prose z">
+    <p class="eyebrow caps">⊕ News</p>
+    <h1 class="caps">{{ .Title }}</h1>
+    {{ .Content }}
+    {{ range sort site.Data.news.items "date" "desc" }}
+    <article class="news-entry">
+      <h2><a href="{{ .path | relURL }}">{{ .title }}</a></h2>
+      <p class="news-date">{{ .date_context }}: <time datetime="{{ .date }}">{{ .date_label }}</time></p>
+      <p>{{ .text }}</p>
+    </article>
+    {{ end }}
+  </div>
+</main>
+{{ end }}

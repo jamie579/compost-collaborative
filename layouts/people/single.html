@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="band-prose g-light">
+<main id="main-content" tabindex="-1" class="band-prose g-light">
   <article class="member z">
     <div class="member-head">
       <img class="member-photo" src="{{ .Params.photo | relURL }}" alt="{{ .Title }}">
@@ -11,7 +11,11 @@
         <p class="member-links">
           {{ with .Params.orcid }}<a class="caps" href="{{ . }}">ORCID</a>{{ end }}
           {{ with .Params.scholar }}<a class="caps" href="{{ . }}">Scholar</a>{{ end }}
-          {{ with .Params.website }}<a class="caps" href="{{ . }}">Website</a>{{ end }}
+          {{ with .Params.website }}<a class="caps" href="{{ . }}">Personal website</a>{{ end }}
+          {{ with .Params.charite }}<a class="caps" href="{{ . }}">Charité profile</a>{{ end }}
+          {{ with .Params.napier }}<a class="caps" href="{{ . }}">Napier research record</a>{{ end }}
+          {{ with .Params.wikidata }}<a class="caps" href="{{ . }}">Wikidata</a>{{ end }}
+          {{ with .Params.linkedin }}<a class="caps" href="{{ . }}">LinkedIn</a>{{ end }}
         </p>
       </div>
     </div>

@@ -12,19 +12,23 @@
 </head>
 <body data-organism="{{ .Param "organism" | default "sparse" }}">
 
+<a class="skip-link" href="#main-content">Skip to content</a>
+
 <nav class="caps" aria-label="Main navigation">
   {{ $current := . }}
   {{ range site.Menus.main }}
-  <a href="{{ .URL | relURL }}"{{ if $current.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+  <a href="{{ .URL | relURL }}"{{ if eq $current.RelPermalink (.URL | relURL) }} aria-current="page"{{ end }}>{{ .Name }}</a>
   {{ end }}
 </nav>
 
-<div class="epigraph" id="epigraph" title="Click for another spore">
+<div class="epigraph" id="epigraph">
   {{ $spores := site.Data.epigraphs.spores }}
   {{ $first := index $spores 0 }}
+  <div aria-live="polite" aria-atomic="true">
   <blockquote id="quote">»{{ $first.quote }}«</blockquote>
   <cite id="cite">{{ $first.attribution }}</cite>
-  <span class="hint caps">⟳ another spore</span>
+  </div>
+  <button class="hint caps" id="next-spore" type="button">⟳ another spore</button>
 </div>
 
 <canvas id="tent-under" aria-hidden="true"></canvas>
@@ -34,7 +38,8 @@
 
 <footer class="caps">
   The Compost Collaborative · we imagine otherwise, with creativity as critique ·
-  <a href="{{ "contact/" | relURL }}">get in contact</a>
+  <a href="{{ "contact/" | relURL }}">get in contact</a> ·
+  <a href="{{ "positionality/" | relURL }}">our position</a>
 </footer>
 
 <script>
