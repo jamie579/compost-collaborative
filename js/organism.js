@@ -18,8 +18,12 @@
     citeEl.textContent = spores[si].attribution;
   };
   showSpore();
-  const epigraph = document.getElementById('epigraph');
-  if (epigraph) epigraph.addEventListener('click', () => { si = (si + 1) % spores.length; showSpore(); });
+  const nextSpore = document.getElementById('next-spore');
+  if (nextSpore) nextSpore.addEventListener('click', () => {
+    if (!spores.length) return;
+    si = (si + 1) % spores.length;
+    showSpore();
+  });
 
   if (MODE === 'off') return;
 
