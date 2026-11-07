@@ -20,6 +20,7 @@
   {{- $links := slice -}}
   {{- with .Params.orcid }}{{ $links = $links | append . }}{{ end -}}
   {{- with .Params.scholar }}{{ $links = $links | append . }}{{ end -}}
+  {{- with .Params.openalex }}{{ $links = $links | append . }}{{ end -}}
   {{- with .Params.website }}{{ $links = $links | append . }}{{ end -}}
   {{- with .Params.wikidata }}{{ $links = $links | append . }}{{ end -}}
   {{- with .Params.charite }}{{ $links = $links | append . }}{{ end -}}
@@ -47,6 +48,7 @@
 {{- $links := slice -}}
 {{- with .Params.orcid }}{{ $links = $links | append . }}{{ end -}}
 {{- with .Params.scholar }}{{ $links = $links | append . }}{{ end -}}
+{{- with .Params.openalex }}{{ $links = $links | append . }}{{ end -}}
 {{- with .Params.website }}{{ $links = $links | append . }}{{ end -}}
 {{- with .Params.wikidata }}{{ $links = $links | append . }}{{ end -}}
 {{- with .Params.charite }}{{ $links = $links | append . }}{{ end -}}
