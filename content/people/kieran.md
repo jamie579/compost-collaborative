@@ -5,10 +5,15 @@ pronouns: "he/him"
 credentials: "EdD, MA"
 based: "West Cumbria, UK"
 photo: "images/people/kieran.svg"
-teaser: "Movement artist and director; maker of Constantly Becoming With; leads the Jury for Joy."
+orcid: "https://orcid.org/0000-0002-9376-6958"
+teaser: "Movement artist and researcher; Artistic Developer at Everyone Here in West Cumbria."
 ---
 
-Kieran Sheehan is a movement artist and movement director who has worked for over twenty years across dance, theatre and opera, with credits including the Royal Shakespeare Company, Glyndebourne, the National Theatre and Opera North. His doctorate (EdD, St Mary's University Twickenham, 2022) researched professional identities through intuitive movement — posthuman, diffractive *video wonderings*, the form behind his piece for the collective, [*Constantly Becoming With*](../../projects/) (2022). Formerly Acting Principal of the Academy of Live and Recorded Arts, he is now Co-director and Artistic Developer of [Everyone Here](https://everyonehere.org/about/our-team/), the Arts Council England-funded Creative People and Places programme for West Cumbria, where he leads the [Jury for Joy](https://everyonehere.org/projects/jury-for-joy/) — the UK's first long-term citizens' jury on creativity, featured by the [UK Government's Policy Lab](https://openpolicy.blog.gov.uk/2025/02/26/art-design-and-participation-in-public-policy/).
+Kieran Sheehan is a movement artist and researcher, and Artistic Developer at Everyone Here in West Cumbria. At Everyone Here he works with local people, artists and partners around a programme shaped by the Jury for Joy, a citizens’ jury that helps decide which creative activities receive funding.
+
+His 2022 doctoral research at St Mary’s University explored professional identities through intuitive movement, developing video and written “Wonderings” as a form of diffractive analysis. He revisited that work in the video article *Constantly Becoming With*, published in the *Journal of Embodied Research* in 2023.
+
+His movement-direction credits include *Steel* for Theatre by the Lake and Park Theatre. He is also credited as movement director for Silent Uproar’s *Shit Life Crisis*.
 
 *Photo and self-written bio to come — the details above are from public sources; Kieran will make this page his own.*
 

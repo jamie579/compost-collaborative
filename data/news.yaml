@@ -1,6 +1,20 @@
 # One news list for the homepage and /news/. Dates refer to events or source
 # announcements, not invented publication dates for these website pages.
 items:
+  - title: "Jess joins UMass ADVANCE as Leader of Research"
+    date: "2026-09-02"
+    date_label: "2 September 2026"
+    date_context: "Source announcement"
+    text: "UMass announced Jess as ADVANCE’s Leader of Research."
+    path: "/news/jess-advance-2026/"
+    link_text: "Read about Jess’s appointment"
+  - title: "Power, justice and care at IDÉA"
+    date: "2026-08-05"
+    date_label: "5 August 2026"
+    date_context: "Series announced"
+    text: "Annie-Claude co-hosts an autumn series on power, justice and healthcare; the update records cancelled and postponed sessions."
+    path: "/news/power-justice-care-idea-2026/"
+    link_text: "Read the series update"
   - title: "Compost at IPONS 2026"
     date: "2026-07-24"
     date_label: "22–24 July 2026"

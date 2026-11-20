@@ -13,6 +13,10 @@ subtitle: "Fruiting bodies appear irregularly. These are ours."
 
 ## 2025
 
+**Opinion: Rémunération à l’acte, les dérives d’un système bien ancré** — Annie-Claude Laurin and Patrick Martin, *Le Devoir*, 24 October 2025. They argue that fee-for-service payment can impede collaboration and call for medical remuneration that supports shared care. [Read the commentary →](https://www.ledevoir.com/opinion/idees/927696/remuneration-acte-derives-systeme-bien-ancre)
+
+**Public Health and Development Policy** — In summer 2025, Eva co-taught a virtual seminar linking Siegen and Georgia State University. [University account →](https://www.uni-siegen.de/en/news/digital-bridge-between-siegen-and-atlanta)
+
 **"Imaginative archives for a more radical nursing future"** — Jane, Annie-Claude and Patrick at the joint conference of the Canadian Society for the History of Medicine and the Canadian Association for the History of Nursing, Toronto, May 2025. The companion article is in [*Witness*](https://doi.org/10.25071/2291-5796.187).
 
 **Storytelling with Movement** — Kieran led a professional movement workshop using intuitive movement at BlastFest, The Dukes, Lancaster, May 2025.
@@ -20,6 +24,8 @@ subtitle: "Fruiting bodies appear irregularly. These are ours."
 **Amplify Nursing, Season 8** — Jess in conversation with Penn Nursing's podcast on nursing history, disciplinary boundaries, and just futures. [Listen →](https://www.youtube.com/watch?v=7BqwSYzjNDc)
 
 ## 2024
+
+**Navigating the U.S.–Mexico Border** — The 2024 JRS/USA report acknowledges Jane’s contributions to interviews and data analysis. [Read the report →](https://www.jrsusa.org/wp-content/uploads/sites/2/2024/04/Final_JRS_2024_Policy-Brief_Navigating-U.S.-Mexico-Border-FINAL-copy-1.pdf)
 
 **"Nursing is a Verb"** — the collective presented together (Jane, Jess, Jamie, Annie-Claude, Patrick, Brandon and Christian) at the 27th International Nursing Philosophy Conference, University of Ioannina, Greece, September 2024.
 

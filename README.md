@@ -41,10 +41,11 @@ For a member change:
    links, photo and layout metadata unless the change explicitly replaces them.
 4. Build and review the member page, People grid and structured data on a branch.
 
-On 30 October 2026 Jamie's proposed bio was updated in the dossier and manually
-synchronised to `content/people/jamie.md`. Other members' biographies were not
-rewritten or bulk-resynchronised. Member identifiers used in structured data
-are also shown as visible links on their pages.
+On 20 November 2026 the reviewed all-nine profile update was applied to the
+dossier and manually synchronised to the People pages. Patrick and Kieran now
+also have dossier sections. Existing member-authored positionality descriptions
+and website metadata were preserved. Member identifiers used in structured
+data are also shown as visible links on their pages.
 
 ## Content homes
 

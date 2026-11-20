@@ -13,6 +13,8 @@ teaser: "Clinical assistant professor at UVM; nursing philosophy, posthumanism, 
 
 Brandon is a white, cis, queer and newly middle class man. A registered nurse (MSN, RN-BC, CNL), he earned his B.S. in Nursing from Andrews University and a Master's in Nursing Education from Norwich University. He is a Clinical Assistant Professor in the Department of Nursing at the University of Vermont, where he has taught since 2016, and practices in post-surgical and trauma care at the University of Vermont Medical Center, alongside doctoral study in education (EdD) at UVM. Brandon co-edited *Nursing a Radical Imagination* (Routledge, 2022) and writes at the intersection of nursing philosophy, posthumanism, and planetary health.
 
+His teaching spans adult health, nursing leadership and project seminars. His writing connects nursing philosophy and education with critical posthumanism and ecological justice. He represents Nursing in UVM’s Faculty Senate for the 2026–2029 term.
+
 ## Selected works
 
 - [We a*ll c*are, ALL the time](https://doi.org/10.1111/nin.12572) — *Nursing Inquiry* (2023)

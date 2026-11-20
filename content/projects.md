@@ -29,6 +29,8 @@ Jamie guest-edited a collection on camp for *Nursing Philosophy* — what happen
 
 Video wonderings by [Kieran Sheehan](../people/kieran/), the collective's movement artist. 2022, 25 minutes. The full film is not yet available on this site.
 
+A published video article is available as [*Constantly Becoming With*](https://doi.org/10.16995/jer.9247), *Journal of Embodied Research* (2023).
+
 ## Making Care Perceptible
 
 Nursing / intuitive movement / posthuman care: Jamie, Eva and Kieran, with posthuman legal theorist Emily Jones, wrote the chapter "Making Care Perceptible" for *Posthuman Convergences: Transdisciplinary Methods and Practices*, edited by Goda Klumbytė, Emily Jones and Rosi Braidotti (Edinburgh University Press, 2025) — the art strand of the compost, in print. [The book →](https://edinburghuniversitypress.com/book-posthuman-convergences.html)
@@ -43,7 +45,7 @@ Video testimonies from the collective. [Watch →](../solidarity/)
 
 ## The Eco-Squisite Corpse
 
-Led by Peter Hopkins and Jane Hopkins-Walsh: the anchor piece of the Nurses and Midwives Art Exchange, exhibited in "Archive of Feelings" at The Big Anxiety festival, RMIT Melbourne, 2022. [The exchange →](https://www.thebiganxiety.org/events/nurses-and-midwives-art-exchange/)
+A collaborative artwork led by Peter Hopkins and Jane Hopkins-Walsh. [Read about the work →](https://nursingfuturities.org/2022/03/07/big-anxiety-and-an-invitation/)
 
 ## Drift Journal
 
