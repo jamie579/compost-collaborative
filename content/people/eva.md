@@ -13,7 +13,13 @@ Eva is white, cis, hetero woman from the countryside. A registered nurse and soc
 
 ## Selected works
 
+- Wendt, C., & Willis, E. (2026). [Coordinating Healthcare and Long-term Care: A Four-Country Comparison](https://doi.org/10.34172/ijhpm.9130). *International Journal of Health Policy and Management, 15*(1), 1–12.
+- Hitzek, J., Willis, E., Zilezinski, M., Petersen, S.-C., & Kottner, J. (2026). [Learning in clinical practice: Factors, outcomes, and challenges in clinical nursing education – A scoping review](https://doi.org/10.1016/j.profnurs.2026.01.009). *Journal of Professional Nursing, 64*, 20–33.
 - [Beyond Heroic Individualism: Cultivating Relational Buffers Against Healthcare System Strain](https://doi.org/10.1111/gwao.70193) — *Gender, Work & Organization* (2026)
 - [What does person-centred care mean, if you weren't considered a person anyway](https://doi.org/10.1111/nup.12401) — *Nursing Philosophy* (2022)
 - [The Vitruvian nurse and burnout](https://doi.org/10.1111/nin.12538) — *Nursing Inquiry* (2022)
 - [Interpreting Posthumanism with Nurse Work](https://doi.org/10.5325/jpoststud.4.1.0059) — *Journal of Posthuman Studies* (2020)
+
+## Under review
+
+- Willis, E. Trustworthiness as Informal Leadership in Nursing Teams. *Symbolic Interaction* (under review).
